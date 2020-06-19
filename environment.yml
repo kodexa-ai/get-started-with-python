@@ -1,4 +1,4 @@
-name: kodexa_demos
+name: kodexa_python_quickstart
 channels:
 - conda-forge
 - defaults

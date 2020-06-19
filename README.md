@@ -1,11 +1,14 @@
-# getting-started-with-python
-Collection of notebooks to interactively demonstrate cool ways to use the Kodexa platform.
+# Getting Started with Kodexa in Python
+
+Collection of notebooks to interactively demonstrate cool ways to use Kodexa.
 
 
 ## Run on Binder
 
 These notebooks are hosted on Binder and can be accessed & run by clicking the Binder badge below.
 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kodexa-labs/get-started-with-python/master)
 
 
 ## Run locally
@@ -16,7 +19,7 @@ If you'd like to run these notebooks locally, ensure you have Anaconda 3 or grea
 
 Activate the demo conda environment with the command:
 
-    conda activate kodexa_demos
+    conda activate kodexa_python_demos
 
 Then, install ipykernel in the environment:
 
@@ -24,7 +27,7 @@ Then, install ipykernel in the environment:
 
 Finally, add the environment to the kernels:
 
-    python -m ipykernel install --user --name kodexa_demos --display-name "kodexa_demos"
+    python -m ipykernel install --user --name kodexa_python_demos --display-name "kodexa_python_demos"
 
 You can now deactivate the conda environment and launch the notebooks:
 
@@ -32,4 +35,4 @@ You can now deactivate the conda environment and launch the notebooks:
 
     jupyter lab
 
-Select the kodexa_demo kernel to execute the notebooks.
+Select the kodexa_python_demos kernel to execute the notebooks.
