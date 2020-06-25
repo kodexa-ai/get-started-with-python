@@ -1,6 +1,6 @@
 # Getting Started with Kodexa in Python
 
-Collection of notebooks to interactively demonstrate cool ways to use Kodexa.
+Collection of notebooks to interactively demonstrate the fundamentals of Kodexa and cool ways to use the platform.
 
 
 ## Run on Binder
@@ -36,3 +36,29 @@ You can now deactivate the conda environment and launch the notebooks:
     jupyter lab
 
 Select the kodexa_python_demos kernel to execute the notebooks.
+
+
+## Overview
+
+These notebooks will walk you through the concepts of Kodexa and demonstrate how these concepts can be combinded to build solutions for your own applications.  The topics have divided into three sections, progressing from basic Kodexa components to real-world examples.
+
+In order to run these notebooks, you'll need to have a platform account with a valid access token.
+
+### 1. Getting Started
+Start here if you're new to Kodexa.  Major topics covered:
+* Overview of the structure of various features of a Kodexa document
+* Connecting data to pipelines
+* Parsing documents
+* Tagging documents
+* Using data sinks and stores
+* Extracting data to stores
+* Saving documents to files
+
+### 2. Examples by Source Type
+These notebooks provide working examples of parsing, tagging, and extracting data from several common file types (Excel, HTML, PDF, and Text)
+
+### 3. Advanced Examples
+These notebooks illustrate more complex examples and can be used as springboards for your own applications.
+A few of the topics covered:
+* Processing bank statements
+* Summarizing the news (using online sources)
