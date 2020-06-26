@@ -19,7 +19,7 @@ If you'd like to run these notebooks locally, ensure you have Anaconda 3 or grea
 
 Activate the demo conda environment with the command:
 
-    conda activate kodexa_python_demos
+    conda activate kodexa_python_quickstart
 
 Then, install ipykernel in the environment:
 
@@ -27,7 +27,7 @@ Then, install ipykernel in the environment:
 
 Finally, add the environment to the kernels:
 
-    python -m ipykernel install --user --name kodexa_python_demos --display-name "kodexa_python_demos"
+    python -m ipykernel install --user --name kodexa_python_quickstart --display-name "kodexa_python_quickstart"
 
 You can now deactivate the conda environment and launch the notebooks:
 
@@ -35,7 +35,7 @@ You can now deactivate the conda environment and launch the notebooks:
 
     jupyter lab
 
-Select the kodexa_python_demos kernel to execute the notebooks.
+Select the kodexa_python_quickstart kernel to execute the notebooks.
 
 
 ## Overview
