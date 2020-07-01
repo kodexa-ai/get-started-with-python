@@ -35,7 +35,8 @@ You can now deactivate the conda environment and launch the notebooks:
 
     jupyter lab
 
-Select the kodexa_python_quickstart kernel to execute the notebooks.
+Select the "kodexa_python_quickstart" kernel in the notebook when executing the example code.
+
 
 
 ## Overview
